@@ -1,10 +1,13 @@
 import React from 'react';
+import Header from './Components/Header/Header';
 
 function App() {
   return (
     <div>
-      <h1>Ma Page Web Simple en React</h1>
-      <p>Bienvenue sur ma page web!</p>
+      <Header />
+      <main>
+        {/* Le reste du contenu ici */}
+      </main>
     </div>
   );
 }
